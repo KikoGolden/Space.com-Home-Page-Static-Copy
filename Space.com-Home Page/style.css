@@ -1,0 +1,340 @@
+/*Heading*/
+header{
+    background: black;
+    width: 100%;
+}
+#logo{
+    padding: 5%;
+    height: 40px;
+    align-self: left;
+}
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+ .contacts{
+     padding: 1%;
+    text-align: center;
+    display: flex;
+    margin-right: 20%;
+}
+a .rss{
+    font-size: 15px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: dotted 1px;
+    text-decoration-color: whitesmoke;
+    margin: 5px;
+}
+a .rss:hover{
+    text-decoration: underline whitesmoke ;
+    cursor: pointer;
+}
+.contacts a {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    text-decoration: none;
+}
+ .contacts img{
+    width: 20px;
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+    margin: 5px;
+}
+.contacts img:hover{
+    cursor: pointer;
+}
+.contacts .subscribe{
+    display: flex;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    width: 100px;
+    text-decoration: none;
+    color: black;
+    padding-left: 4px;
+    padding-top: 6px;
+}
+.contacts .subscribe img{
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.contacts .search{
+    display: flex;
+    margin-left: 110px;
+    width: 100px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding-left: 4px;
+    padding-top: 8px;
+}
+.contacts .search img{
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.contacts:hover{
+    text-decoration: underline;
+}
+
+/*Main*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Navbar*/
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-right: 25%;
+    color:whitesmoke;
+    font-weight: bold;
+    justify-items:center;
+}
+#navbar div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#navbar img{
+    width: 20px;
+}
+#navback{
+    padding: 10px ;
+    width: 100%;
+    background-color: dodgerblue;
+}
+
+/*Main body*/
+#main{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/*Tool Bar*/
+#toolbar{
+    margin-top: 20px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(230, 230, 230);
+}
+.tooltitle{
+    color: #2654d3;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+.tooltitle:hover{
+    cursor: pointer;
+}
+.scroll{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.scroll div{
+    text-align: center;
+    min-width: 160px;
+    margin-left: 5px;
+}
+.scroll .first{
+    margin-left: 300px
+}
+.scroll div:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.scroll::-webkit-scrollbar{
+    height:8px;
+    width:2px;
+    border-radius: 5px;
+    border: 1px solid rgb(177, 177, 177);
+}
+.scroll::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color:rgb(53, 116, 253);
+}
+
+/*Line Text*/
+#line-text{
+    color:#2654d3;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+#line-text a{
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: #2654d3;
+    cursor: pointer;
+}
+
+/*First Container*/
+.container1{
+    display: flex;
+}
+
+/*Col 1*/
+.container2{
+    width: 60%;
+    height: 450px;
+    background-color: rgb(27, 27, 27);
+}
+.container2 img{
+    width: 100%;
+}
+.container2{
+    text-align: left;
+    color: whitesmoke;
+}
+.container2 h1{
+    margin: 2px;
+    margin-left: 8px;
+    padding: 0;
+    font-size: 25px;
+}
+.container2 h2{
+    margin: 2px;
+    margin-left: 8px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.container2:hover{
+    color: rgb(83, 163, 255);
+    cursor: pointer;
+}
+
+/*Col 2*/
+.container3{
+    width: 40%;
+    margin-left: 2%;
+}
+.container3 hr{
+    border-top: 1px dotted grey;
+}
+.container3 h2{
+    font-weight: 550;
+    font-size: 19px;
+}
+.container3 .last{
+    font-weight:300;
+    font-size: 18px;
+}
+.container3 h2:hover{
+    color: rgb(88, 125, 247);
+    cursor: pointer;
+}
+.container3 img{
+    margin: 2;
+    width: 35px;
+}
+.container3 h1{
+    margin: auto;
+    padding:0;
+    font-size: 16px;
+    color: rgb(34, 34, 34);
+    display: inline-block;
+    padding-left: 8px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.container3 h1:hover{
+    color: rgb(139, 170, 255);
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+/*Second Container*/
+.images{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.images div{
+    height: 270px;
+    background-color:rgb(34, 34, 34);
+}
+.images img{
+    width: 100%;
+}
+.images h1{
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 7px;
+    padding-top: 2px;
+    font-weight: 500;
+}
+.images .first{
+    width: 32%;
+    padding-left: 0;
+}
+.images .second{
+    width: 32%;
+}
+.images .third{
+    width: 32%;
+    padding-right:0;
+}
+.images .first h1:hover{
+    color: rgb(88, 125, 247);
+    cursor: pointer;
+}
+.images .second h1:hover{
+    color: rgb(88, 125, 247);
+    cursor: pointer;
+}
+.images .third h1:hover{
+    color: rgb(88, 125, 247);
+    cursor: pointer;
+}
+
+/*Footer*/
+footer div{
+    color: whitesmoke;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+footer .foot{
+    margin-top:10px;
+    padding-top:25px;
+    padding-bottom: 15px;
+}
+footer div a{
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+footer{
+    text-align: left;
+    margin-top: 20px;
+    background-color: rgb(114, 114, 114);
+    width: 100%;
+    font-size: 14px;
+}
+footer .bottom{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+/*Footer table*/
+footer table{
+   
+    margin-left: 15%;
+}
+footer td{
+     padding: 10px 40px;
+     padding-left: 0;
+     padding-right: 110px;
+}
+footer td:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
